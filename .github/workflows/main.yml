@@ -31,4 +31,4 @@ jobs:
           commit_message: Actividad en clase
           commit_user_name: MichelJTEc
           commit_user_email: mjtapia@estud.tesa.edu.ec
-          commit_author: Jonnathan Tapia
+          commit_author: Jonnathan Tapia <mjtapia@estud.tesa.edu.ec>
