@@ -2,7 +2,7 @@ name: Stats
 
 on:
   push:
-    branches: [main]
+    branches: [devolop]
 workflow_dispatch:
 jobs:
   build:
