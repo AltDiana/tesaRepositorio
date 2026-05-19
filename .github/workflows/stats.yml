@@ -20,10 +20,10 @@ steps:
 - name: Setup python
   use: actions/setup-python@v6
   with:
-      python-version: "3.13"
+      python-version: 3.13
 
   - name: Run script
-  use: python./stats.py
+    run: python./stats.py
 
   - name: commit y push de cambios
   use: stefanzweifel/git-auto-commit-action@v7
@@ -31,7 +31,7 @@ steps:
      commit_message: Update de estadisticas
      commit_user_name: melanievelasco12
      commit_user_email: mmvelasco@estud.tesa.edu.ec
-     commit_author: melanie
+     commit_author: melanie <mmvelasco@estud.tesa.edu.ec>
   
 
   
